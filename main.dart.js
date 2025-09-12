@@ -35418,7 +35418,7 @@ aqd(a,b){return A.bBh(a,b)},
 bBh(a,b){var s=0,r=A.x(t.S),q,p=2,o=[],n,m,l,k,j,i,h,g
 var $async$aqd=A.t(function(c,d){if(c===1){o.push(d)
 s=p}while(true)switch(s){case 0:p=4
-k=A.dO("https://aquamarine-ferret-962895.hostingersite.com//api/v1/asset/"+a,0,null)
+k=A.dO("https://aquamarine-ferret-962895.hostingersite.com/api/v1/asset/"+a,0,null)
 j=t.N
 i=A.K(["Content-Type","application/json","Accept","application/json"],j,j)
 s=7
@@ -35449,7 +35449,7 @@ aqf(a,b){return A.bBj(a,b)},
 bBj(a,b){var s=0,r=A.x(t.S),q,p=2,o=[],n,m,l,k,j,i,h,g
 var $async$aqf=A.t(function(c,d){if(c===1){o.push(d)
 s=p}while(true)switch(s){case 0:p=4
-k=A.dO("https://aquamarine-ferret-962895.hostingersite.com//api/v1/tujuan/ternak/"+a,0,null)
+k=A.dO("https://aquamarine-ferret-962895.hostingersite.com/api/v1/tujuan/ternak/"+a,0,null)
 j=t.N
 i=A.K(["Content-Type","application/json","Accept","application/json"],j,j)
 s=7
@@ -35480,7 +35480,7 @@ aqe(a,b,c){return A.bBi(a,b,c)},
 bBi(a,b,c){var s=0,r=A.x(t.S),q,p=2,o=[],n,m,l,k,j,i,h,g
 var $async$aqe=A.t(function(d,e){if(d===1){o.push(e)
 s=p}while(true)switch(s){case 0:p=4
-k=A.dO("https://aquamarine-ferret-962895.hostingersite.com//api/v1/jenis/tugas/"+a,0,null)
+k=A.dO("https://aquamarine-ferret-962895.hostingersite.com/api/v1/jenis/tugas/"+a,0,null)
 j=t.N
 i=A.K(["Content-Type","application/json","Accept","application/json"],j,j)
 s=7
@@ -130219,7 +130219,7 @@ ib(a,b){return this.lh(null,a,b)},
 aA3(a,b,c){var s=0,r=A.x(t.Wd),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d
 var $async$lh=A.t(function(a0,a1){if(a0===1){o.push(a1)
 s=p}while(true)switch(s){case 0:j=null
-i=A.dO("https://aquamarine-ferret-962895.hostingersite.com//api/v1"+b,0,null)
+i=A.dO("https://aquamarine-ferret-962895.hostingersite.com/api/v1"+b,0,null)
 d=J
 s=3
 return A.m(n.eB(),$async$lh)
@@ -130695,7 +130695,7 @@ s=7
 return A.m(n.eB(),$async$EH)
 case 7:m=a3
 l=J.ac(m,"user_id")
-i=A.dO("https://aquamarine-ferret-962895.hostingersite.com//api/v1/ternak/"+A.k(l)+"/"+c,0,null)
+i=A.dO("https://aquamarine-ferret-962895.hostingersite.com/api/v1/ternak/"+A.k(l)+"/"+c,0,null)
 h=t.N
 g=A.K(["Content-Type","application/json","Accept","application/json"],h,h)
 s=8
@@ -130875,7 +130875,7 @@ s=7
 return A.m(n.eB(),$async$zg)
 case 7:m=a6
 l=J.ac(m,"user_id")
-i=A.dO("https://aquamarine-ferret-962895.hostingersite.com//api/v1/tugas/"+A.k(l)+"/"+c,0,null)
+i=A.dO("https://aquamarine-ferret-962895.hostingersite.com/api/v1/tugas/"+A.k(l)+"/"+c,0,null)
 h=t.N
 g=A.K(["Content-Type","application/json","Accept","application/json"],h,h)
 f=t.X
@@ -130988,7 +130988,7 @@ return A.w($async$vI,r)},
 Jh(){var s=0,r=A.x(t.wU),q,p,o
 var $async$Jh=A.t(function(a,b){if(a===1)return A.u(b,r)
 while(true)switch(s){case 0:s=3
-return A.m(A.ap3(A.dO("https://aquamarine-ferret-962895.hostingersite.com//api/v1/active-banners",0,null),null),$async$Jh)
+return A.m(A.ap3(A.dO("https://aquamarine-ferret-962895.hostingersite.com/api/v1/active-banners",0,null),null),$async$Jh)
 case 3:o=b
 if(o.b===200){p=J.dm(t.f.a(J.ac(B.Z.cd(0,A.dD(A.dC(o.e)).cd(0,o.w)),"data")),new A.apV(),t.N8)
 p=A.X(p,p.$ti.h("a9.E"))
@@ -131001,7 +131001,7 @@ Ji(a){return this.aPh(a)},
 aPh(a){var s=0,r=A.x(t.tj),q,p,o
 var $async$Ji=A.t(function(b,c){if(b===1)return A.u(c,r)
 while(true)switch(s){case 0:s=3
-return A.m(A.ap3(A.dO("https://aquamarine-ferret-962895.hostingersite.com//api/v1/notifications/"+a,0,null),null),$async$Ji)
+return A.m(A.ap3(A.dO("https://aquamarine-ferret-962895.hostingersite.com/api/v1/notifications/"+a,0,null),null),$async$Ji)
 case 3:o=c
 if(o.b===200){p=J.dm(t.f.a(J.ac(B.Z.cd(0,A.dD(A.dC(o.e)).cd(0,o.w)),"data")),new A.apW(),t.qb)
 p=A.X(p,p.$ti.h("a9.E"))
